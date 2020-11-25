@@ -18,7 +18,15 @@ dependencies {
 }
 
 jar {
-    destinationDir new File("plugins 폴더")
+    destinationDir new File("plugins 폴더 지정하세요.")
+}
+
+spigot {
+    commands {
+        test {
+            description('kotlin-spigot-example')
+        }
+    }
 }
 
 sourceCompatibility = 1.8
